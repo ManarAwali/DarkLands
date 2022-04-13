@@ -102,9 +102,9 @@
         });
       };
       document.body.appendChild(script);
-      
-      //resizing here eft
-       var gameInstance = UnityLoader.instantiate("gameContainer", "Build/WebGL.json");
+    </script>
+	<script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/WebGL.json");
     	function startup() {
 		window.onresize = function() {
 			resizeGame();
